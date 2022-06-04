@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Site</title>
+</head>
+<img src="space-and-moon.png" width="100%" height="100%" alt="space and moon" onclick="new Audio('video.mp4').play()">
+<audio autoplay loop>
+    <source src="video.mp4" type="audio/mpeg">
+</audio>
+<body>
+
+<script>
+const image = document.querySelector('img');
+image.addEventListener('click', () => {
+    image.style.width = '100%';
+    image.style.height = '100%';
+    this.src = "https://www.trustedreviews.com/wp-content/uploads/sites/54/2021/02/Rickrolling-in-4K-920x595.jpg"
+});
+</script>
+</body>
+</html>
